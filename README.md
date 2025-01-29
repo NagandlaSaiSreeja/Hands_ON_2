@@ -6,16 +6,16 @@
 - We employ mathematical induction and loop invariants to demonstrate the correctness of Selection Sort.
 
 1. Comprehending Selection Sort 
-- Choosing In order to sort, the smallest element from the unsorted portion is repeatedly chosen and positioned correctly in the sorted portion. Two portions of the array are preserved by the algorithm: 
-A section that is sorted (left side). 
-The right side is an unsorted section. 
+- Choosing In order to sort, the smallest element from the unsorted portion is repeatedly chosen and positioned correctly in the sorted portion. 
+- Two portions of the array are preserved by the algorithm: 
+- A section that is sorted (left side). 
+- The right side is an unsorted section. 
 The leftmost unsorted element is switched out for the smallest element from the unsorted section at each stage.
 
 2. Selection Sort Loop Invariant 
 A condition that holds true both before and after a loop iteration is referred to as a loop invariant. 
 Invariant Loop: 
-At the start  
-The smallest i elements in the array are arranged in the first i elements of the array in the 𝑖𝑡h iteration of the outer loop.
+At the start ,The smallest i elements in the array are arranged in the first i elements of the array in the 𝑖𝑡h iteration of the outer loop.
 
 3. Proof by Induction
 Using mathematical induction on the number of iterations, we demonstrate that Selection Sort is correct.
