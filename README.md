@@ -2,12 +2,12 @@
 - CPU: Intel Core i5-11400H @ 2.70GHz
 - RAM: 8 GB DDR4  
 
-2.Argument for Selection Sorting's Correctness 
-We employ mathematical induction and loop invariants to demonstrate the correctness of Selection Sort.
+2.Argument for Selection Sorting's Correctness
+- We employ mathematical induction and loop invariants to demonstrate the correctness of Selection Sort.
 
 1. Comprehending Selection Sort 
-Choosing In order to sort, the smallest element from the unsorted portion is repeatedly chosen and positioned correctly in the sorted portion. Two portions of the array are preserved by the algorithm: 
-a section that is sorted (left side). 
+- Choosing In order to sort, the smallest element from the unsorted portion is repeatedly chosen and positioned correctly in the sorted portion. Two portions of the array are preserved by the algorithm: 
+A section that is sorted (left side). 
 The right side is an unsorted section. 
 The leftmost unsorted element is switched out for the smallest element from the unsorted section at each stage.
 
