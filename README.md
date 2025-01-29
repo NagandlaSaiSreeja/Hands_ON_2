@@ -23,7 +23,7 @@ Base Situation (Initialization)
 Since the sorted part is empty at the beginning (i=0), the invariant is trivially satisfied. 
 
 The Inductive Step 
-Suppose that at iteration I's start,  at the first 
+- Suppose that at iteration I's start,  at the first 
 The smallest elements are among the sorted i elements. 
 The element at index i is swapped out for the smallest element in the remaining unsorted section in the ith iteration. 
 After iteration I, the sorted portion still contains the smallest i+1 elements because we always choose the smallest element that is available. 
